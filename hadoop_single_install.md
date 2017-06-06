@@ -13,7 +13,7 @@ tar -xvf jdk-*-*.tar.gz
 vim .bashrc
 PATH=$PATH:/path/to/jdk/bin
 
-# 
+#  
 source .bashrc
 
 java -version
@@ -42,6 +42,17 @@ export JAVA_HOME=/path/to/jdk
 
 # try and display the usage doc for the hadoop script
 ./bin/hadoop
+
+# edit HADOOP_HOME to PATH
+vim .bashrc
+HADOOP_HOME=/path/to/hadoop/bin
+PATH=$PATH:$HADOOP_HOME
+
+#  
+source .bashrc
+
+hadoop
+```
 ```
 
 ### Pseudo-Distributed Operation
@@ -199,3 +210,4 @@ sbin/start-yarn.sh
 ```shell
 sbin/stop-yarn.sh
 ```
+
