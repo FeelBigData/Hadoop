@@ -7,6 +7,7 @@
 ## HBase
 
 <a href="./hbase_standalone_install.md">HBase Standalone Install</a>
+<a href="./hbase_pseudo-distributed_local_install.md">Pseudo-Distributed Local Install</a>
 
 ## Hive
 

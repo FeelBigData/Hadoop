@@ -80,7 +80,7 @@ quit
 ```shell
 bin/stop-hbase.sh
 
-# check HMaster adn HRegionServer processess shutdown
+# check HMaster and HRegionServer processess shutdown
 jps
 ```
 
