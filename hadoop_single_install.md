@@ -53,7 +53,6 @@ source .bashrc
 
 hadoop
 ```
-```
 
 ### Pseudo-Distributed Operation
 
